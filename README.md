@@ -12,7 +12,7 @@ Brian Beliveau, PhD
 _Spring Quarter 2022_: Mondays & Wednesdays 10:30–11:50 am, Foege S-110
 
 # Prerequisites
-Background in molecular and cellular biology, chemistry, genetics, biochemistry, engineering, or related discipline and experience with quantitative problem solivng.
+Background in molecular and cellular biology, chemistry, genetics, biochemistry, engineering, or related discipline and experience with quantitative problem solving.
 
 # Course materials
 There is no one textbook that can effectively cover the information presented in this course. To supplement the lecture content, the instructors will assign supplemental readings from reviews, historical papers, and/or free online sources.
