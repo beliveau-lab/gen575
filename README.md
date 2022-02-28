@@ -31,7 +31,7 @@ Each 80-minute class will be divided between lecture content about an instrument
 |----------------------------------------------------------------------------|------------|
 | 1: Intro to the course                                                     | 03/28/2022 |
 | 2: Signal-to-noise                                                         | 03/30/2022 |
-| 3: Quantitative Analysis 101 and Calibration                               | 04/04/2022 |
+| 3: Quantitative Analysis 101                                               | 04/04/2022 |
 | 4: Information Currencies                                                  | 04/06/2022 |
 | 5: Information Theory                                                      | 04/11/2022 |
 | 6: Evaluating Information                                                  | 04/13/2022 |
