@@ -5,7 +5,7 @@ Gen 775: Fundamentals of Biomedical Instrumentation
 An introduction to the fundamentals of instrumentation commonly used in biomedical research settings including mass spectrometers, optical microscopes, and DNA sequencers. Emphasis on a practical understanding of the physical and chemical properties that underlie operation and sources of uncertainty, noise, and error. 
 
 # Instructional staff
-Michael MacCoss, PhD
+Michael MacCoss, PhD \
 Brian Beliveau, PhD
 
 # Meeting times and locations
@@ -21,7 +21,7 @@ There is no one textbook that can effectively cover the information presented in
 Late homework will be accepted, but penalized. Specifically, each assignment is worth 100 points, from which 10 points will be deducted for each day (or fraction thereof) that you turn it in late. The maximum deduction for being late is 60 points (even if you are more than 6 days late).
 
 # Course grade
-Participation: 40%
+Participation: 40% \
 Problem sets: 60% (6, worth 10% each).
 
 # Course format
