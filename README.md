@@ -1,5 +1,5 @@
-# Gen775
-Gen 775: Fundamentals of Biomedical Instrumentation
+# Gen575
+Gen 575: Fundamentals of Biomedical Instrumentation
 
 # Course description
 An introduction to the fundamentals of instrumentation commonly used in biomedical research settings including mass spectrometers, optical microscopes, and DNA sequencers. Emphasis on a practical understanding of the physical and chemical properties that underlie operation and sources of uncertainty, noise, and error. 
