@@ -24,7 +24,7 @@ Students may miss lectures without suffering a penalty to their participation gr
 
 # Course grade
 Participation: 60% \
-Problem sets: 40% (6, worth 10% each).
+Problem sets: 40% (4, worth 10% each).
 
 # Course format
 Each 80-minute class will be divided between lecture content about an instrumentation topic, discussion, and problem solving exercises related to the lecture topic.
