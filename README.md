@@ -9,7 +9,7 @@ Michael MacCoss, PhD \
 Brian Beliveau, PhD
 
 # Meeting times and locations
-_Spring Quarter 2024_: Mondays & Wednesdays 10:30–11:50 am, Foege S-110
+_Spring Quarter 2025_: Mondays & Wednesdays 12:00–1:30 pm, Foege S-110
 
 # Prerequisites
 Background in molecular and cellular biology, chemistry, genetics, biochemistry, engineering, or related discipline and experience with quantitative problem solving.
