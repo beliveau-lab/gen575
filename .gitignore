@@ -4,3 +4,9 @@
 .venv/
 .vscode/
 __pycache__/
+=======
+
+# Private grading data — never commit
+Gen575.Spr.*.Grades.xlsx
+assignments/*scores*.xlsx
+grading/
