@@ -1,67 +1,60 @@
-# Ultrasound and Ultraviolet: Open Source Data
+# Gen575
 
----
+Gen 575: Fundamentals of Biomedical Instrumentation
 
-We have submitted our raw data (**UltrasoundandUltraviolet_Data.csv**), museum specimen information (**UltrasoundandUltraviolet_MuseumSpecimens.csv**), raw trimmed phylogenetic trees (**UltrasoundandUltraviolet_Trees.nex**), R script (**UltrasoundandUltraviolet_Script.R**), and photo deck of all ultraviolet-induced photoluminescence samples (including all species with no UVP; **UltrasoundandUltraviolet_UVP.pdf**).
+# Course description
 
-## Descriptions
+An introduction to the fundamentals of instrumentation commonly used in biomedical research settings including mass spectrometers, optical microscopes, and DNA sequencers. Emphasis on a practical understanding of the physical and chemical properties that underlie operation and sources of uncertainty, noise, and error.
 
-### **UltrasoundandUltraviolet**\_Data
+# Instructional staff
 
-*   *Name*: Currently valid scientific name
-*   *Mass_g_Females*: Average mass of adult females (g)
-*   *Mass_g_Males*: Average mass of adult males (g)
-*   *Temporality*: The main temporal activity patten (Nocturnal or Diurnal)
-*   *Gliding*: Whether or not this species can glide as a form of locomotion (Y/N)
-*   *Openness*: Openness of the dominant habitat
-    *   Closed = closed canopy, tall vegetation
-    *   Open = open canopy, short or minimal vegetation
-*   *Sociality*: Social interactions of adult individuals
-    *   Social = Stable or cyclical social groups
-    *   Solitary = Stable solitary living
-*   *UV_Lit*: The dominant colour, if any, of ultraviolet-induced photoluminescence reported by other researchers in the literature; NA indicates that we could not find a record of ultraviolet-induced photoluminescence in the current literature.
-*   *UV_Pub*: The dominant colour, if any, of ultraviolet-induced photoluminescence reported in this publication (photos available in **UltrasoundandUltraviolet_UVP**); NA indicates that we did not test for ultraviolet-induced photoluminescence in this publication.
-*   *Lowest_kHz*: The absolute lowest frequency (kHz) of the dominant harmonic reported in literature (a list of all references and vocal ranges is provided in the supplemental information of the main article (Supplemental Information S1 and Supplemental References); NA indicates that we could not find vocal frequency range in the current literature.
-*   *Highest_kHz*: The absolute highest frequency (kHz) of the dominant harmonic reported in literature (a list of all references and vocal ranges is provided in the supplemental information of the main article (Supplemental Information S1 and Supplemental References); NA indicates that we could not find vocal frequency range in the current literature.
+Michael MacCoss, PhD   
+Brian Beliveau, PhD
 
-### UltrasoundandUltraviolet\_MuseumSpecimens&#x20;
+# Meeting times and locations
 
-*   *Name*: Currently valid scientific name (note that this may not reflect the name used in the collections, we recommend using the ID to locate specimens in museum databases)
-*   *Collection*: The museum that the specimen was stored in
-*   *ID*: The catalogue ID for the specimen (this is the most reliable way to relocate specimens in both collections)
-*   *Location of Origin*: The location that the specimen was obtained from (if available from the collection, NA indicates that location of origin was not catalogued by the collection). The city and province/state/territory were provided if possible, though some specimens were only listed with a country.
-*   *Year of Origin*: The year that the specimen was obtained (if available from the collection, NA indicates that year of origin was not catalogued by the collection)
-*   *Specimen Type*: The majority of specimens were pelts (which were sometimes stuffed), but we also note mounted specimens which were posed with additional features like glass eyes. Mounts are more likely to produce false positives as they are often treated with additional chemicals to achieve a desired look.
-*   *Dorsal/Ventral_UV*: The conclusions reached by two independent observers as to the presence of ultraviolet-induced photoluminescence and the colour, if present. These conclusions are also present on each page of **UltrasoundUltraviolet_UVP**.
+*Spring Quarter 2026*: Tuesdays & Thursdays 12:00–1:30 pm, Foege S-110
 
-### **UltrasoundandUltraviolet**\_Trees
+# Prerequisites
 
-1000 node-dated trees were generated from the species list in **UltrasoundandUltraviolet_Data**. Some species had nomenclature inconsistent with our dataset:
+Background in molecular and cellular biology, chemistry, genetics, biochemistry, engineering, or related discipline and experience with quantitative problem solving.
 
-*   *Lagothrix lagothricha*, Vertlife = *Lagothrix lagotricha*
-*   *Micoureous demerarae*, Vertlife = *Marmosa demerarae*
-*   *Paragalago* spp., Vertlife = *Galagoides* spp.
-*   *Plecturocebus moloch*, Vertlife = *Callicebus moloch*
+# Course materials
 
-Additionally, *Petaurus notatus* is a recently described species that was not available at Vertlife at the time of publication; this species was added at 1MYA to the *Petaurus breviceps* tip using **UltrasoundUltraviolet_Script**.
+There is no one textbook that can effectively cover the information presented in this course. To supplement the lecture content, the instructors will assign supplemental readings from reviews, historical papers, and/or free online sources.
 
-### **UltrasoundandUltraviolet**\_UVP
+# Course requirements
 
-Museum specimens photographed under normal conditions (white light), ultraviolet light, ultraviolet light + yellow gel filter (to reduce the amount of excess purple-blue light), and the filtered photograph with a slight edit to reduce the excess of yellow (details provided in the supplemental information of the main article (SupplementalInformationS1)). The ventral and dorsal sides were photographed for all specimens; museum collection indicated in the bottom-right corner.
+Late homework will be accepted, but penalized. Specifically, each assignment is worth 100 points, from which 10 points will be deducted for each day (or fraction thereof) that you turn it in late. The maximum deduction for being late is 60 points (even if you are more than 6 days late).
 
-## Key Information Sources
+Students may miss lectures without suffering a penalty to their participation grade provided that their absence is cleared with an instructor. While we realize it may not always be possile to do this in advance (eg, becauese of illness or emergency), but we please ask when possible that we be given >1 week notice. 5% will be deducted from the class participation grade for each uncleared absence.
 
-Body Mass, Habitat Openness, Sociality, Temporality, and Gliding were derived from the following sources:
+# Course grade
 
-*   Animal Diversity Web
-*   Integrative Taxonomic Information System
-*   IUCN Red List
+Participation: 60%   
+Problem sets: 40% (4, worth 10% each).
 
-Phylogenetic trees were trimmed from the Mammalian Super Tree:
+# Course format
 
-*   Vertlife
+Each 80-minute class will be divided between lecture content about an instrumentation topic, discussion, and problem solving exercises related to the lecture topic.
 
-## Code/Software
-
-R is required to run *Nocturnal Gliders_Script*; the script was created using version 4.2.3.
-Annotations are provided throughout the script through 1) library loading, 2) dataset loading and cleaning, 3) analyses, and 4) figure creation.
+| Lecture Topic | Date | Instructor | Slides | Readings | Assignments |
+| --- | --- | --- | --- | --- | --- |
+| 1: Why Tech Dev? | 03/31/2026 | Mike | [1.WhyTechDev](https://github.com/beliveau-lab/gen575/blob/main/lectures/1.WhyTechDev.pptx) | [1.ScienceTechnology.Brooks](https://github.com/beliveau-lab/gen575/blob/main/readings/1.ScienceTechnology.Brooks.pdf)  [1.Annurev.Anchem.Hood](https://github.com/beliveau-lab/gen575/blob/main/readings/1.Annurev.Anchem.Hood.pdf) |  |
+| 2: Signal-to-noise | 04/02/2026 | Mike | [2.SignalNoiseBias](https://github.com/beliveau-lab/gen575/blob/main/lectures/2.SignalNoiseBias.pptx) | [2.Agilent.Signal-Noise](https://github.com/beliveau-lab/gen575/blob/main/readings/2.Agilent.Signal-Noise.pdf)  [2.JCE.SN.Coor](https://github.com/beliveau-lab/gen575/blob/main/readings/2.JCE.SN.Coor.pdf)  [2.JCE.ShotNoise.Mclain-Wright](https://github.com/beliveau-lab/gen575/blob/main/readings/2.JCE.ShotNoise.Mclain-Wright.pdf) |  |
+| 3: Quantitative Analysis 101 | 04/07/2026 | Mike | [3.Quant101.Calibration](https://github.com/beliveau-lab/gen575/blob/main/lectures/3.Quant101.Calibration.pptx) | [3.NIST.Calibration](https://www.itl.nist.gov/div898/handbook/mpc/section3/mpc3.htm)  [3.LOB-LOD-LOQ.Armbruster](https://github.com/beliveau-lab/gen575/blob/main/readings/3.LOB-LOD-LOQ.Armbruster.pdf)  [3.Shimadzu.TOF.Calibration](https://github.com/beliveau-lab/gen575/blob/main/readings/3.Shimadzu.TOF.Calibration.pdf) |  |
+| 4: Basics of Biomedical Separation | 04/09/2026 | Mike | [4.Separations](https://github.com/beliveau-lab/gen575/blob/main/lectures/4.Separations.pptx) | [4.Chrom.FigsMerit.Agilent](https://github.com/beliveau-lab/gen575/blob/main/readings/4.Chrom.FigsMerit.Agilent.pdf) [4.Laemmli-SDSPAGE](https://github.com/beliveau-lab/gen575/blob/main/readings/4.Laemmli-SDSPAGE.pdf) [4.OFarrell.2DGel](https://github.com/beliveau-lab/gen575/blob/main/readings/4.OFarrell.2DGel.pdf) [4.CentrifugationSeparations](https://github.com/beliveau-lab/gen575/blob/main/readings/4.CentrifugationSeparations.Sigma.pdf) |  |
+| 5: Mass Spectrometry 1: Ionization and Mass Analyzers | 04/14/2026 | Mike | [5.MS.Ionization.Analyzers](https://github.com/beliveau-lab/gen575/blob/main/lectures/5.MS.Ionization.Analyzers.pptx) | [5.ElectrosprayReview](https://github.com/beliveau-lab/gen575/blob/main/readings/5.ElectrosprayReview.Fenn_et_al.pdf) [5.Quadrupole.JCE1986](https://github.com/beliveau-lab/gen575/blob/main/readings/5.Quad.JCE-1986.pdf) [5.IonTraps.March](https://github.com/beliveau-lab/gen575/blob/main/readings/5.IonTraps.March.pdf) [5.MALDIReview.Hillenkamp\_et\_al](https://github.com/beliveau-lab/gen575/blob/main/readings/5.MALDIReview.Hillenkamp_et_al.pdf) |  |
+| 6: Mass Spectrometry 2: Intro to qualitative peptide and protein analysis | 04/16/2026 | Mike | [6.QualitativePeptideAnalysis](https://github.com/beliveau-lab/gen575/blob/main/lectures/6.QualitativePeptideAnalysis.pptx) | [6.ResidueMass.Table](https://github.com/beliveau-lab/gen575/blob/main/readings/6.ResidueMass.Table.pdf)  [6.HuntSpectraInterpretation](https://github.com/beliveau-lab/gen575/blob/main/readings/6.HuntSpectraInterpretation.pdf)  [6.KinterAndSherman-Chapter4](https://github.com/beliveau-lab/gen575/blob/main/readings/6.KinterAndSherman-Chapter4.pdf) |  |
+| 7: Intro, Information Currencies | 04/21/2026 | Brian | [7.Intro.Information.Currencies](https://github.com/beliveau-lab/gen575/blob/main/lectures/7.Intro.Information.Currencies.pptx) | [7.NASA.EM.book](https://github.com/beliveau-lab/gen575/blob/main/readings/7.NASA.EM.book.pdf)  [7.NASA.EM.graphic](https://github.com/beliveau-lab/gen575/blob/main/readings/7.NASA.EM.graphic.jpeg)  [7.NIST.SP.1247](https://github.com/beliveau-lab/gen575/blob/main/readings/7.NIST.SP.1247.pdf) |  |
+| 8: Information Theory | 04/23/2026 | Brian | [8.Information.Theory](https://github.com/beliveau-lab/gen575/blob/main/lectures/8.Information.Theory.pptx) | [8.Guardian.Fourier.Transforms](https://github.com/beliveau-lab/gen575/blob/main/readings/8.Guardian.Fourier.Transforms.pdf)  [8.Guardian.Shannon](https://github.com/beliveau-lab/gen575/blob/main/readings/8.Guardian.Shannon.pdf)  [8.Sampling](https://github.com/beliveau-lab/gen575/blob/main/readings/8.Sampling.pdf) |  |
+| 9: Evaluating Information | 04/28/2026 | Brian | [9.Evaluating.Information](https://github.com/beliveau-lab/gen575/blob/main/lectures/9.Evaluating.Information.pptx) | [9.ejifcc.testing.pdf](https://github.com/beliveau-lab/gen575/blob/main/readings/9.ejifcc.testing.pdf)  [9.Montparnasse.Accident.pdf](https://github.com/beliveau-lab/gen575/blob/main/readings/9.Montparnasse.Accident.pdf) |  |
+| 10: Light Sources | 04/30/2026 | Brian | [10.Light.Sources](https://github.com/beliveau-lab/gen575/blob/main/lectures/10.Light.Sources.pptx) | [10.Laser.History](https://github.com/beliveau-lab/gen575/blob/main/readings/10.Laser.History.pdf) [10.Lamps](https://github.com/beliveau-lab/gen575/blob/main/readings/10.Lamps.pdf) |  |
+| 11: Multispectral imaging | 05/05/2026 | Brian | [11.Multispectral.Imaging](https://github.com/beliveau-lab/gen575/blob/main/lectures/11.Multispectral.Imaging.pptx) | [11.chroma.dichroics](https://github.com/beliveau-lab/gen575/blob/main/readings/11.chroma.dichroics.pdf) [11.Edmund.filters](https://github.com/beliveau-lab/gen575/blob/main/readings/11.Edmund.filters.pdf) |  |
+| 12: Fluorescent labels | 05/07/2026 | Brian | [12.Fluorescent.Labels](https://github.com/beliveau-lab/gen575/blob/main/lectures/12.Fluorescent.Labels.pptx) | [12.Dyes](https://github.com/beliveau-lab/gen575/blob/main/readings/12.Dyes.pdf) [12.GFP.history](https://github.com/beliveau-lab/gen575/blob/main/readings/12.GFP.history.pdf) |  |
+| 13: Optical detection | 05/12/2026 | Brian | [13.Optical.detection](https://github.com/beliveau-lab/gen575/blob/main/lectures/13.Optical.detection.pptx) | [13.FACS.detectors](https://github.com/beliveau-lab/gen575/blob/main/readings/13.FACS.detectors.pdf) [13.Prime95B.sCMOS](https://github.com/beliveau-lab/gen575/blob/main/readings/13.Prime95B.sCMOS.pdf) [13.Zeiss.PSF](https://github.com/beliveau-lab/gen575/blob/main/readings/13.Zeiss.PSF.pdf) |  |
+| 14: Objectives and PSFs | 05/14/2026 | Brian | [14.Objectives.PSFs](https://github.com/beliveau-lab/gen575/blob/main/lectures/14.Objectives.PSFs.pptx) | [14.Olympus.Decon](https://github.com/beliveau-lab/gen575/blob/main/readings/14.Olympus.Decon.pdf) [14.Photometrics.SDC](https://github.com/beliveau-lab/gen575/blob/main/readings/14.Photometrics.SDC.pdf) |  |
+| 15: Mass spectrometry 3: Quantitative Analysis | 05/19/2026 | Mike | [15.QuantitativeProteomics](https://github.com/beliveau-lab/gen575/blob/main/lectures/15.QuantitativeProteomics.pptx) | [15.IsobaricMassTags.MCP](https://github.com/beliveau-lab/gen575/blob/main/readings/15.IsobaricMassTags.MCP.pdf) [15.SWATH.MCP](https://github.com/beliveau-lab/gen575/blob/main/readings/15.SWATH.MCP.pdf) |  |
+| 16: Proteomics: Alternatives to mass spectrometry | 05/21/2026 | Mike | [16.Non-MSBasedProteomics](https://github.com/beliveau-lab/gen575/blob/main/lectures/16.Non-MSBasedProteomics.pptx) | [16.Alfaro.NatMeth.SingleMol](https://github.com/beliveau-lab/gen575/blob/main/readings/16.Alfaro.NatMeth.SingleMol.pdf) [16.Gold.Aptamer.SomoScan](https://github.com/beliveau-lab/gen575/blob/main/readings/16.Gold.Aptamer.SomoScan.pdf)  [16.Rooney.MultiplexAssays.ClinChem.2025](https://github.com/beliveau-lab/gen575/blob/main/readings/16.Rooney.MultiplexAssays.ClinChem.2025.pdf) [16.MacCoss.NatMeth.SingleMol](https://github.com/beliveau-lab/gen575/blob/main/readings/16.MacCoss.NatMeth.SingleMol.pdf) |  |
+| 17: Spatial and Single-cell Proteomics | 05/26/2026 | Mike | [17.SpatialProteomics](https://github.com/beliveau-lab/gen575/blob/main/lectures/17.SpatialProteomics.pptx) |  |  |
+| 18: Single Molecule Localization Microscopy | 05/28/2026 | Brian | [18.SMLM](https://github.com/beliveau-lab/gen575/blob/main/lectures/18.SMLM.pptx) |  |  |
